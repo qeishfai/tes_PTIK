@@ -12,10 +12,8 @@ def main():
     
     st.title("🗄 Pembelajaran Interaktif: SQL")
     st.sidebar.header("Navigasi")
-    pilihan = st.sidebar.radio("Pilih Topik:", [
-        "Pengantar", "SELECT", "WHERE", "ORDER BY", "GROUP BY", "HAVING", 
-        "INNER JOIN", "LEFT JOIN", "RIGHT JOIN", "FULL OUTER JOIN"
-    ])
+    pilihan = st.sidebar.radio("Pilih Topik:", ["Pengantar", "SELECT", "WHERE", "ORDER BY", "GROUP BY", "HAVING", 
+        "INNER JOIN", "LEFT JOIN", "RIGHT JOIN", "FULL OUTER JOIN"])
     
     if pilihan == "Pengantar":
         show_pengantar()
