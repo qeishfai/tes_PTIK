@@ -1,14 +1,11 @@
 import streamlit as st
-
+import sqlite3
+import pandas as pd
 st.title("hello panda")
 st.write("panda pindi")
 
 st.title("BUNGA")
 st.image("https://upload.wikimedia.org/wikipedia/commons/b/bd/Helianthus_annuus_exposed_2004-05-22.jpg")
-
-import streamlit as st
-import sqlite3
-import pandas as pd
 
 def main():
     st.set_page_config(page_title="Belajar SQL", layout="wide")
